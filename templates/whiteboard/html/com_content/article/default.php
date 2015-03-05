@@ -243,7 +243,7 @@ echo base64_decode($mlp);?>
 </div>
 </gavern:desktop>
 
-
+<?php /*
 <gavern:mobile>
 <div class="item-page<?php echo $params->get('pageclass_sfx')?>">
 	<?php if ($this->params->get('show_page_heading', 1)) : ?>
@@ -312,12 +312,12 @@ echo base64_decode($mlp);?>
 	<?php if (isset ($this->item->toc)) : ?>
 		<?php echo $this->item->toc; ?>
 	<?php endif; ?>
-    
+
     <?php if(version_compare( JVERSION, '1.8', 'ge' )) : ?>
         <?php // This loads the block of links ?>
         <?php echo $this->loadTemplate('links'); ?>
     <?php endif; ?>
-    
+
 	<?php if ($params->get('access-view')):?>
          <?php  if (version_compare( JVERSION, '1.8', 'ge' ) && isset($images->image_fulltext) and !empty($images->image_fulltext)) : ?>
                <?php $imgfloat = (empty($images->float_fulltext)) ? $params->get('float_fulltext') : $images->float_fulltext; ?>
@@ -330,7 +330,6 @@ echo base64_decode($mlp);?>
                </div>
          <?php endif; ?>
 		<?php echo $this->item->text; ?>
-	<?php /*optional teaser intro text for guests */ ?>
 	<?php elseif ($params->get('show_noauth') == true AND  $user->get('guest') ) : ?>
 		<?php echo $this->item->introtext; ?>
 		<?php //Optional link to let them register to see the whole article. ?>
@@ -339,8 +338,8 @@ echo base64_decode($mlp);?>
 			$link = new JURI($link1);?>
 			<p class="readmore">
 			<a href="<?php echo $link; ?>">
-			<?php $attribs = json_decode($this->item->attribs);  ?> 
-			<?php 
+			<?php $attribs = json_decode($this->item->attribs);  ?>
+			<?php
 			if ($attribs->alternative_readmore == null) :
 				echo JText::_('COM_CONTENT_REGISTER_TO_READ_MORE');
 			elseif ($readmore = $this->item->alternative_readmore) :
@@ -349,7 +348,7 @@ echo base64_decode($mlp);?>
 				    echo JHTML::_('string.truncate', ($this->item->title), $params->get('readmore_limit'));
 				endif;
 			elseif ($params->get('show_readmore_title', 0) == 0) :
-				echo JText::sprintf('COM_CONTENT_READ_MORE_TITLE');	
+				echo JText::sprintf('COM_CONTENT_READ_MORE_TITLE');
 			else :
 				echo JText::_('COM_CONTENT_READ_MORE');
 				echo JHTML::_('string.truncate', ($this->item->title), $params->get('readmore_limit'));
@@ -360,3 +359,4 @@ echo base64_decode($mlp);?>
 </div>
 </gavern:mobile>
 
+*/ ?>
