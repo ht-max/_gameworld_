@@ -470,9 +470,7 @@ if($this->getParam("cwidth_position", '') == 'style') {
 									
 									
 									<?php elseif($this->getParam('mainbody_frontpage', 'only_component') == 'mainbody_before_component') : ?>
-									<div id="gkComponent">
-										<jdoc:include type="component" />
-									</div>
+
 									<?php else : ?>
 									<div id="gkComponent">
 										<jdoc:include type="component" />
