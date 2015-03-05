@@ -35,9 +35,9 @@ if($this->browser->get('browser') != 'ie6') {
 		$this->addCSS($this->URLtemplate() . '/css/reset/'.$this->getParam('reset_css', '').'.css');
 	}
 	
-	$this->addCSS($this->URLtemplate() . '/css/layout.css');
+	$this->addCSS($this->URLtemplate() . '/css/layout.css?v=11');
 	$this->addCSS($this->URLtemplate() . '/css/joomla.css');
-	$this->addCSS($this->URLtemplate() . '/css/template.css');
+	$this->addCSS($this->URLtemplate() . '/css/template.css?v=11');
 	$this->addCSS($this->URLtemplate() . '/css/menu.css');
 	$this->addCSS($this->URLtemplate() . '/css/gk.stuff.css');
 
