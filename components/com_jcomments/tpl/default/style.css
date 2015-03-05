@@ -80,7 +80,7 @@
 #comments .toolbar-button-ban {background-position: 0 -80px !important}
 
 /* Comments list */
-#comments .comments-list {margin-left: 20px;height: 1%}
+#comments .comments-list {margin-left: 20px;height: auto}
 #comments .even, #comments .odd {background-image: none;background-color: transparent;color: #3c452d;border: none; margin-left: 0;margin-bottom: 10px;padding: 0}
 
 #comments-list .comments-inline-edit {padding: 5px; margin: 5px 0; color: inherit;background-color: #fff;border: 1px solid #ccc}
