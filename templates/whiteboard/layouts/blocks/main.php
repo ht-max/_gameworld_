@@ -464,29 +464,31 @@ if($this->getParam("cwidth_position", '') == 'style') {
 								<?php if($this->isFrontpage()) : ?>
 									<?php if($this->getParam('mainbody_frontpage', 'only_component') == 'only_component') : ?>
 									
-									<div id="gkComponent">
+									<div id="gkComponent" class="1">
 										<jdoc:include type="component" />
 									</div>
-									
-									
-									<?php elseif($this->getParam('mainbody_frontpage', 'only_component') == 'mainbody_before_component') : ?>
 
+
+									<?php elseif($this->getParam('mainbody_frontpage', 'only_component') == 'mainbody_before_component') : ?>
+									<div id="gkComponent" class="2">
+										<jdoc:include type="component" />
+									</div>
 									<?php else : ?>
-									<div id="gkComponent">
+									<div id="gkComponent" class="3">
 										<jdoc:include type="component" />
 									</div>
 									<?php endif; ?>
 								<?php else : ?>
-									<?php if($this->getParam('mainbody_subpage', 'only_component') == 'only_component') : ?>	
-									<div id="gkComponent">
+									<?php if($this->getParam('mainbody_subpage', 'only_component') == 'only_component') : ?>
+									<div id="gkComponent" class="4">
 										<jdoc:include type="component" />
 									</div>
 									<?php elseif($this->getParam('mainbody_subpage', 'only_component') == 'mainbody_before_component') : ?>
-									<div id="gkComponent">
+									<div id="gkComponent" class="5">
 										<jdoc:include type="component" />
 									</div>
 									<?php else : ?>
-									<div id="gkComponent">
+									<div id="gkComponent" class="6">
 										<jdoc:include type="component" />
 									</div>
 									<?php endif; ?>					
