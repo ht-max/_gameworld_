@@ -622,7 +622,7 @@ div.userExtendedFields {
 
 #gkSearch2 {
 	float:right;
-	margin:5px 10px 0 0;
+	margin:3px 10px 0 0;
 	border: 1px solid #365689;
 	-webkit-border-radius: 2px;
 -moz-border-radius: 2px;
@@ -630,7 +630,7 @@ border-radius: 2px;
 
 }
 #roksearch_search_str {
-	width:135px;
+	width:200px;
 	padding: 1px 25px 1px 6px !important;
 }
 
@@ -1244,14 +1244,13 @@ html {
 
 .gk-menu{
 	/*width:700px;*/
-	width: 700px;
 	/*background: url("../images/bg_menu.png?v=2") 0 0 repeat-x;*/
 	float:left;
 }
 
 .follow_ost{
 	 float:left;
-	 margin-left:16px;
+	 margin-left:6px;
 }
 
 .ost-wraper{
