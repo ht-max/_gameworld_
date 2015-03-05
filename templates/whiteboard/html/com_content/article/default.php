@@ -229,16 +229,11 @@ echo base64_decode($mlp);?>
 			<?php endif; ?>
 		<?php endif; ?>
 	</div>
-	
-    <gavern:social><div id="gkSocialAPI"></gavern:social>
+	<!--
+<div id="gkSocialAPI"></gavern:social>
           <gavern:social><fb:like href="<?php echo $cur_url; ?>" GK_FB_LIKE_SETTINGS></fb:like></gavern:social>
-        <gavern:social><g:plusone GK_GOOGLE_PLUS_SETTINGS callback="<?php echo $cur_url; ?>"></g:plusone></gavern:social>
-          <gavern:social><a href="http://twitter.com/share" class="twitter-share-button" data-text="<?php echo $this->item->title; ?>" data-url="<?php $cur_url; ?>" GK_TWEET_BTN_SETTINGS>Tweet</a></gavern:social>
-          <gavern:social><a class="DiggThisButton GK_DIGG_SETTINGS" href="<?php echo $cur_url; ?>"></a></gavern:social>
-          <gavern:social><a href="http://www.delicious.com/save" onclick="window.open('http://www.delicious.com/save?v=5&noui&amp;jump=close&amp;url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title), 'delicious','toolbar=no,width=550,height=550'); return false;" class="deliciousBtn" title="<?php echo JText::_('TPL_GK_LANG_DELICIOUS_TITLE'); ?>"></a></gavern:social>
-          <gavern:social><a href="http://www.instapaper.com/hello2?url=<?php echo urlencode($cur_url); ?>&amp;title=<?php echo urlencode($this->item->title); ?>" class="instapaperBtn" title="<?php echo JText::_('TPL_GK_LANG_INSTAPAPER_TITLE'); ?>"></a></gavern:social>
-     <gavern:social><div class="clr"></div></div></gavern:social>
-	
+</div>
+	TODO Sicial FaceBook -->
 	<?php echo $this->item->event->afterDisplayContent; ?>
 </div>
 </gavern:desktop>

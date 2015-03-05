@@ -58,7 +58,7 @@ jcomments.setList('comments-list');
 				}
 			}
 ?>
-<div id="comments"><?php echo $comments; ?></div>
+<div id="comments"><?php   echo $comments; ?></div>
 <?php
 			if ($this->getVar('comments-form-position', 0) == 0) {
 				// Display comments form (or link to show form)
