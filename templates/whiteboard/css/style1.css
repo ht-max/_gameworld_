@@ -1,0 +1,117 @@
+/*
+#------------------------------------------------------------------------
+# Game Magazine - October 2011 template (for Joomla 1.6/1.7)
+#
+# Copyright (C) 2007-2011 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+/* Style 1 */
+
+/* template.css */
+::selection {background: #ffbf25; }
+::-moz-selection {background: #ffbf25; }
+::-webkit-selection {background: #ffbf25; }
+a:hover,
+a:active,
+a:focus,
+body ul.autocompleter-choices li.autocompleter-selected span.autocompleter-queried { color: #6896C1; }
+#gkHeader { color: #8c8b82; }
+h1#gkLogo a.cssLogo { background-image: url('../images/style1/logo.png'); }
+#gkButtons div a { background-image: url('../images/style1/is_bullet_active.png'); }
+#gkButtons a:hover { color: #6896C1; }
+#gkBreadcrumb .breadcrumbs li.separator { background-image: url('../images/style1/color_bullet.png'); }
+#gkBreadcrumb .breadcrumbs > ul > li a:hover { color: #6896C1; }
+#gkBreadcrumb .breadcrumbs > ul > li:first-child { background-image: url('../images/style1/breadcrumb_youah.png'); }
+#gkBreadcrumb .breadcrumbs > ul > li:first-child > span { background-color: #78a8d5; }
+.box.color1 > div > h3.header,
+.box_menu.color1 > div > h3.header,
+.box_text.color1 > div > h3.header { background-color: #ffbf25; }
+.box.dark.color1 > div > h3.header,
+.box_menu.dark.color1 > div > h3.header,
+.box_text.dark.color1 > div > h3.header { color: #ffbf25; }
+.box.color2 > div > h3.header,
+.box_menu.color2 > div > h3.header,
+.box_text.color2 > div > h3.header,
+.box.dark.color2 > div > h3.header,
+.box_menu.dark.color2 > div > h3.header,
+.box_text.dark.color2 > div > h3.header { color: #6896C1; }
+.box_menu {  background-color: #78A8D5; }
+.box_menu ul li a { background-image: url('../images/style1/typography/bullet4.png'); }
+.box_menu ul li a:hover { color: #222; }
+.box_menu ul li:hover { background-image: #F8FCFF; }
+.box.color3 { background-color: #ffbf25; color: #fff5dc; }
+.box.color4 { background-color: #78A8D5; color: #dceefe; }
+.box.color3 li,
+.box.color4 li { background-image: url('../images/style1/is_bullet_active.png'); }
+.box.color3 a:hover { color: #fff5dc; }
+.box.color4 a:hover { color: #fff5dc; }
+.box.dark a:active,
+.box.dark a:focus,
+.box.dark a:hover,
+.box_menu.dark a:active,
+.box_menu.dark a:focus,
+.box_menu.dark a:hover,
+.box_text.dark a:active,
+.box_text.dark a:focus,
+.box_text.dark a:hover { color: #6896C1; }
+.box.dark.color1 a:active,
+.box.dark.color1 a:focus,
+.box.dark.color1 a:hover,
+.box_menu.dark.color1 a:active,
+.box_menu.dark.color1 a:focus,
+.box_menu.dark.color1 a:hover,
+.box_text.dark.color1 a:active,
+.box_text.dark.color1 a:focus,
+.box_text.dark.color1 a:hover { color: #ffbf25; }
+.box_menu ul li:hover { background: #F8FCFF; }
+
+/* joomla.css */
+.button:hover, .button:focus, button:hover, button:focus, input[type="submit"]:hover, input[type="submit"]:focus, input[type="button"]:hover, input[type="button"]:focus, a:hover.k2ReadMore, .pagenav-next a:hover, .pagenav-prev a:hover, .pagenav-next a:active, .pagenav-prev a:active, .pagenav-next a:focus, .pagenav-prev a:focus, .k2ReadMore:hover, .k2ReadMore:focus, .k2ReadMore:active { background-color: #78a8d5; }
+.searchintro { color: #ee9218; }
+#mainPage .blog h2 > a { color: #686B6C; }
+div#article-index h3 {border-bottom-color: #78a8d5; }
+dl#tabs dt:hover,
+dl#tabs dt.open a { color: #78a8d5; }
+
+/* gk_stuff.css */
+.tab1 ul.gkTabs li { color: #78a8d5 }
+.tab2 ul.gkTabs { border-bottom-color: #78a8d5; }
+.tab2 ul.gkTabs li.active { background: #78a8d5; }
+.tab2 ul.gkTabs li:hover { color: #78a8d5; }
+#gkHeader ul.gkTabs li { color: #8c8b82; background-image: url('../images/style1/is_bullet.png'); }
+#gkHeader ul.gkTabs li.active { background-image: url('../images/style1/is_bullet.png'); }
+#gkHeader ul.gkTabs li:hover > span,
+#gkHeader ul.gkTabs li.active > span { color: #78a8d5; }
+#gkHeader ul.gkTabs li:hover { background-image: url('../images/style1/is_bullet.png'); }
+.nspBotInterface .nspPrev,
+.nspTopInterface .nspPrev,
+.nspBotInterface .nspNext,
+.nspTopInterface .nspNext { background-image: url('../images/style1/interface_horizontal_light.png'); }
+.gkHighlighterInterface div a { background-image: url('../images/style1/interface_horizontal_light.png'); }
+.gkHighlighterWrapper .nowrap > span { background-image: url('../images/style1/is_bullet.png'); }
+.gkHighlighterWrapper a { color: #8c8b82; }
+#gkHeader .gkHighlighterInterface div a { background-image: url('../images/style1/interface_horizontal.png'); }
+#gkHeader .gkHighlighterWrapper .nowrap > span { background-image: url('../images/style1/is_bullet.png'); }
+#gkHeader .gkHighlighterWrapper .nowrap > span:hover { background-image: url('../images/style1/is_bullet_active.png'); }
+#gkHeader .gkHighlighterWrapper a { color: #8c8b82!important; }
+.gkIsWrapper-gk_game_magazine .gkIsListItem { background-image: url('../images/style1/is_bullet.png')!important; }
+.gkIsWrapper-gk_game_magazine .gkIsListItem:hover { background-images: url('../images/style1/is_bullet_active.png')!important; }
+.gkIsWrapper-gk_game_magazine .gkIsListItem.active { background-color: #8c8b82!important; background-image: url('../images/style1/is_bullet_active.png')!important; }
+.gkIsWrapper-gk_game_magazine .gkIsTextItem { background-image: url('../images/style1/is_readon.png')!important; }
+.gkIsWrapper-gk_game_magazine .gkIsTextItem:hover { background-image: url('../images/style1/is_readon_active.png')!important; } 
+.gkIsWrapper-gk_game_magazine .gkIsTextItem span.gkIsTextSmall { color: #8c8b82!important; }
+.gkIsWrapper-gk_game_magazine .gkIsBtnUp { background-image: url('../images/style1/is_arrows.png')!important; }
+.gkIsWrapper-gk_game_magazine .gkIsBtnDown { background-image: url('../images/style1/is_arrows.png')!important; }
+.gkIsWrapper-gk_game_magazine .gkIsBtnUp:hover { border-bottom-color: #8c8b82!important; }
+.gkIsWrapper-gk_game_magazine .gkIsBtnDown:hover { border-top-color: #8c8b82!important; }
+
+/* k2.css */
+.itemSocialSharing { border-top-color: #78a8d5; }
+.catItemTagsBlock ul.catItemTags li a:hover, 
+.itemTagsBlock ul.itemTags li a:hover { background-color: #78A8D5; }
+table.calendar tr td.calendarToday { background-color: #78A8D5; }
+table.calendar tr td.calendarTodayLinked { background-color: #78A8D5; }
+table.calendar tr td.calendarTodayLinked a:hover { background-color: #f8fcfe; color: #78A8D5; }

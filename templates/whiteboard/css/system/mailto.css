@@ -1,0 +1,33 @@
+/*
+#------------------------------------------------------------------------
+# Game Magazine - October 2011 template (for Joomla 1.6/1.7)
+#
+# Copyright (C) 2007-2011 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+body { line-height: 1.8; color: #444; font: 12px/1.8 Arial, Verdana  }
+h2 { text-align:center; font-size:150%; font:24px/1.4 BebasNeue, Arial, sans-serif; color: #333; }
+a { text-decoration: none; color: #000; }
+a:hover,
+a:active,
+a:focus { color: #6896C1; }
+p { margin: 0.5em 0 }
+a > img { display: none!important; }
+#mailto-window { padding: 0 20px; }
+form div label { display: block; width:100%; font-size:90%; }
+form div input { font-family: Arial, Helvetica, sans-serif; padding: 7px; border: none; border: 1px solid #ddd; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; width: 93%; }
+#mailtoForm p button { float: right!important; }
+#mailtoForm p button:first-child { float: left!important; }
+
+input[type="password"], input[type="text"], input[type="email"], input[type="www"], input[type="tel"], input[type="url"], input[type="search"], select, .inputbox { border: 1px solid #e7e7e7; border-top: 1px solid #ccc; border-radius: 1px; -moz-border-radius: 1px; -webkit-border-radius: 1px; color: #888; font-size: 13px; height: 18px; line-height: 18px; padding: 7px 9px; -webkit-transition: background-color 0.25s linear; -moz-transition: background-color 0.25s linear; -o-transition: background-color 0.25s linear; transition: background-color 0.25s linear; }
+select { padding: 2px 2px 2px 0!important; text-indent: 0!important; min-height:23px; margin: 3px 5px 3px 0!important; text-transform:none!important; font-size: 12px!important; display: block; float: left; text-align: left!important; vertical-align: middle!important; }
+.display-limit select { float: right!important; margin:0 0 0 5px!important; }
+textarea { border: 1px solid #eaeaea; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; font-family: Arial, Verdana, sans-serif; font-size: 10px; line-height: 23px; padding: 10px; text-transform: none; -webkit-transition: background-color 0.25s linear; -moz-transition: background-color 0.25s linear; -o-transition: background-color 0.25s linear; transition: background-color 0.25s linear; }
+input:focus, select, textarea:focus, .inputbox:focus { background: #fffff3; color: #333; }
+.button, button, button.button, input[type="submit"], input[type="button"], .pagenav-next a, .pagenav-prev a, .k2ReadMore { display: block; float: left; margin: 1px 5px 3px 2px; padding: 6px 9px; border: none; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; background: #333; color: #fff; font-size: 11px; font-weight: 600; text-transform: uppercase; text-decoration: none; cursor: pointer; -webkit-transition: background-color 0.25s linear; -moz-transition: background-color 0.25s linear; -o-transition: background-color 0.25s linear; transition: background-color 0.25s linear; }
+.button, .pagenav-next a, .pagenav-prev a, .k2ReadMore { padding: 5px 10px!important; }
+.button:hover, .button:focus, button:hover, button:focus, input[type="submit"]:hover, input[type="submit"]:focus, input[type="button"]:hover, input[type="button"]:focus, a:hover.k2ReadMore, .pagenav-next a:hover, .pagenav-prev a:hover, .pagenav-next a:active, .pagenav-prev a:active, .pagenav-next a:focus, .pagenav-prev a:focus, .k2ReadMore:hover, .k2ReadMore:focus, .k2ReadMore:active { background: #78a8d5; color: #fff!important; }
+

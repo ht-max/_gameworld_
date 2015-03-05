@@ -1,0 +1,86 @@
+/*
+#------------------------------------------------------------------------
+# Game Magazine - October 2011 template (for Joomla 1.6/1.7)
+#
+# Copyright (C) 2007-2011 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+#gkMainMenu { float: left; border-bottom: 5px solid #101010; width: 100%; }
+#gkMainMenu > div > ul {  height: 54px; }
+#gkMainMenu > div > ul > li:first-child { margin-left: 0; }
+#gkMainMenu > div > ul > li { height: 54px; }
+#gkMainMenu > div > ul > li:hover,
+#gkMainMenu > div > ul > li:active,
+#gkMainMenu > div > ul > li:focus { background: #101010; }
+#gkMainMenu > div > ul > li:hover > a,
+#gkMainMenu > div > ul > li:active > a,
+#gkMainMenu > div > ul > li:focus > a { color: #fff; border-right: 1px solid transparent; }
+#gkMainMenu > div > ul > li > a { padding: 0 27px; margin-top: 16px; display: block; height: 22px;line-height:22px; font-size: 14px; text-transform: uppercase; color: #444; border-right: 1px solid #d5d5d5; font-weight: bold; } 
+#gkMainMenu > div > ul > li.active { background: #101010; }
+#gkMainMenu > div > ul > li.active > a { color: #fff; border-right: none!important; }
+
+#gkMainMenu > div > ul div.childcontent { padding-top: 12px; margin-top: 4px; background: transparent; }
+#gkMainMenu > div > ul div.childcontent-inner-wrap { background: #101010; border: 1px solid #222; }
+#gkMainMenu > div > ul div.childcontent-inner { overflow: hidden; padding-bottom: 6px; padding-top: 6px; }
+
+div.gk-menu > ul.level0 > li > .childcontent .gkcol { padding-bottom: 0; }
+#gkMainMenu > div > ul div.childcontent a,
+#gkMainMenu > div > ul div.childcontent span { font-size: 11px; color: #989898; }
+#gkMainMenu > div > ul div.childcontent li { padding: 4px 0 4px 4px; min-height: 32px; line-height: 32px; border-top: 1px solid #222; margin: 0 15px;  }
+#gkMainMenu > div > ul div.childcontent li:first-child { border-top: none; }
+#gkMainMenu > div > ul div.childcontent li.group { padding: 0; margin: 0; height: auto; border: none!important; background: none }
+#gkMainMenu > div > ul div.childcontent li > a,
+#gkMainMenu > div > ul div.childcontent li > span { display:block; min-height: 24px; color:#989898; }
+
+#gkMainMenu > div > ul div.childcontent li.active > a,
+#gkMainMenu > div > ul div.childcontent li.active > span,
+#gkMainMenu > div > ul div.childcontent li:hover > a,
+#gkMainMenu > div > ul div.childcontent li:hover > span,
+#gkMainMenu > div > ul div.childcontent li > a:hover,
+#gkMainMenu > div > ul div.childcontent li > span:hover { color: #fff!important; }
+
+#gkMainMenu > div > ul div.childcontent li.active > a > span,
+#gkMainMenu > div > ul div.childcontent li.active > span > span,
+#gkMainMenu > div > ul div.childcontent li:hover > a > span,
+#gkMainMenu > div > ul div.childcontent li:hover > span > span,
+#gkMainMenu > div > ul div.childcontent li > a:hover > span,
+#gkMainMenu > div > ul div.childcontent li > span:hover > span { color: #fff!important; }
+
+#gkMainMenu > div > ul div.childcontent .group-title { padding: 8px; margin: 15px 15px 0 12px; }
+#gkMainMenu > div > ul div.childcontent .group-title .menu-title { font-size: 11px; text-transform: uppercase; font-weight: bold;  line-height: 16px;  display: block; color: #fff; }
+#gkMainMenu > div > ul div.childcontent .group-title .menu-desc { font-size: 12px; line-height: 12px; display: block; color: #777; } 
+#gkMainMenu .module p {font-size: 12px; line-height:  18px; }
+
+/* split menu */
+
+#gkSubmenu { height: 24px; background: #101010; margin: 0; border-top: 4px solid #101010; border-bottom: 9px solid #101010; }
+#gkSubmenu > div > ul { float: left; font-size: 12px; line-height: 24px!important; }
+#gkSubmenu > div > ul li { padding: 0 15px; text-transform: uppercase; border-left: 1px solid #222; }
+#gkSubmenu > div > ul li a { line-height:24px!important; color: #989898; display: block; }
+#gkSubmenu > div > ul > li a:hover { color: #fff; }
+#gkSubmenu > div > ul > li:first-child { padding-left: 27px; border-left: none; background:none; }
+
+#gkSubmenu.dark > div > ul { float: left; font-size: 11px; }
+#gkSubmenu.dark { margin: 6px -35px 0 -35px; }
+#gkSubmenu.dark > div > ul > li:first-child { padding-left: 35px; background:none; }
+
+/* Sub Nav (lv2) */
+#gkSubmenu ul li li { display:block; min-height: 32px; line-height: 32px; padding: 0!important; margin: 0 12px; text-transform: none!important; border-left: none; font-size: 11px; border-top: 1px solid #222; }
+#gkSubmenu ul li li:first-child { border-top: none; }
+#gkSubmenu ul li li > a { color: #989898; line-height: 32px!important; }
+#gkSubmenu ul li li > a:hover,
+#gkSubmenu ul li li > a:hover > span { color: #fff!important; line-height: 32px; }
+#gkSubmenu ul li ul,
+#gkSubmenu ul li ul ul,
+#gkSubmenu ul li ul ul ul { background: #101010; border: 1px solid #222; padding: 10px 5px!important; position: relative; font-size: 11px; }
+#gkSubmenu ul>li.hover>ul { display:block; height:auto; left:auto; position:absolute; }
+#gkSubmenu ul ul { padding: 12px 0 10px 0; }
+#gkSubmenu > div > ul > ul { margin-left: -20px!important; }
+#gkSubmenu ul ul ul { display:none!important; left:-999px!important; }
+#gkSubmenu ul ul li:hover>ul { margin-left:180px!important; margin-top: -32px!important; left:0!important; display:block!important; }
+#gkSubmenu ul li:hover ul,
+#gkSubmenu ul li:hover ul ul,
+#gkSubmenu ul li:hover ul ul ul { left: auto; }

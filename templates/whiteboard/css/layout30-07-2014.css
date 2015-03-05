@@ -1,0 +1,231 @@
+/*
+#------------------------------------------------------------------------
+# Game Magazine - October 2011 template (for Joomla 1.6/1.7)
+#
+# Copyright (C) 2007-2011 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+
+/* fonts */
+body { font: normal 13px/1.8 Arial, sans-serif; }
+/* main layout */
+html { height:100%; min-height:100%; border-bottom:1px solid transparent; }
+.clear { clear: both; }
+.overflow { overflow: hidden; }
+.gkWrap {max-width: 1200px}
+#gkMainBlock { margin-bottom: 0!important; }
+#gkContentMainbody {}
+#gkComponentWrap { padding:0!important; }
+.gkWrap { margin: 0 auto; }
+.clearfix:after,
+.gkWrap:after,
+.gkMain:after,
+#gkComponentWrap:after,
+#gkContentMainbody:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+#gkTop1,
+#gkTop2,
+#gkUser1,
+#gkUser2,
+#gkBottom1,
+#gkBottom2,
+#gkMainBlock,
+#gkLeftMiddle,
+#gkRightMiddle { display: block; width: 100%; }
+#gkTop1,
+#gkTop2,
+#gkUser1,
+#gkUser2 { margin-bottom: 27px; }
+#gkBottom2 { margin-top: 27px; }
+#gkTop1,
+.gkMarginTop { padding-top: 27px; }
+#gkTop1 > div, 
+#gkTop2 > div, 
+#gkUser1 > div,
+#gkUser2 > div { padding: 0 27px; }
+.gkCol { display: block; float: left; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; -ms-box-sizing:border-box; width: 100%; }
+#gkBottom1,
+#gkBottom2 {}
+#gkBottomWrap > div:first-child { margin-top: 0; }
+#gkMainbodyBottom { margin-top: 27px; }
+#gkLeft {padding-right: 26px !important; border-right: 1px solid #dfdfdf; }
+#gkRight {padding-left: 26px !important; border-left: 1px solid #dfdfdf; }
+#gkInset1 { padding-right: 27px!important; }
+#gkInset2 { padding-left: 27px!important; }
+#gkContentTop{margin-bottom: 27px !important}
+#gkContentBottom {margin-top: 27px !important}
+#gkContent {padding-top: 0!important}
+.gkContentL { padding-left: 27px!important; }
+.gkContentR { padding-right: 27px!important; }
+.gkContentRL { padding-left: 27px!important; padding-right: 27px!important; }
+/* USER/TOP/BOTTOM columns */
+.gkColFull > .box,
+.gkColLeft > .box,
+.gkColCenter > .box,
+.gkColRight > .box { margin-left: 0; }
+.gkColLeft > .box { margin-left: 0; }
+.gkColRight > .box { margin-right: 0; }
+.gkColFull > .box { margin-left: 0; margin-right: 0; }
+
+.gkColLeft > div {margin-right: 13px!important}
+.gkColCenter > div  {margin-left: 13px!important; margin-right: 13px!important}
+.gkColRight > div  {margin-left: 13px!important}
+#gkRight > div, 
+#gkLeft > div { margin-top: 27px; }
+#gkRight > div:first-child, 
+#gkLeft > div:first-child { margin-top: 0; }
+/* TBLR */
+.gkPaddingT { padding-top: 27px!important; }
+.gkPaddingB { padding-bottom: 27px!important; }
+.gkPaddingL { padding-left: 27px!important; }
+.gkPaddingR { padding-right: 27px!important; }
+.gkPaddingTB { padding-top: 27px!important; padding-bottom: 27px!important; }
+.gkPaddingTL { padding-top: 27px!important; padding-right: 27px!important; }
+.gkPaddingTR { padding-top: 27px!important; padding-right: 27px!important; }
+.gkPaddingBL { padding-bottom: 27px!important; padding-left: 27px!important; }
+.gkPaddingBR { padding-bottom: 27px!important; padding-right: 27px!important; }
+.gkPaddingLR { padding-left: 27px!important; padding-right: 27px!important; }
+.gkPaddingTBL { padding-top: 27px!important; padding-bottom: 27px!important; padding-left: 27px!important; }
+.gkPaddingTBR { padding-top: 27px!important; padding-bottom: 27px!important; padding-right: 27px!important; }
+.gkPaddingTLR { padding-top: 27px!important; padding-left: 27px!important; padding-right: 27px!important; }
+.gkPaddingBLR { padding-bottom: 27px!important; padding-left: 27px!important; padding-right: 27px!important; }
+.gkPaddingTBLR { padding: 27px!important; }
+
+.gkMarginT { padding-top: 12px!important; }
+.gkMarginB { padding-bottom: 12px!important; }
+.gkMarginL { padding-left: 12px!important; }
+.gkMarginR { padding-right: 12px!important; }
+.gkMarginTB { padding-top: 12px!important; padding-bottom: 12px!important; }
+.gkMarginTL { padding-top: 12px!important; padding-right: 12px!important; }
+.gkMarginTR { padding-top: 12px!important; padding-right: 12px!important; }
+.gkMarginBL { padding-bottom: 12px!important; padding-left: 12px!important; }
+.gkMarginBR { padding-bottom: 12px!important; padding-right: 12px!important; }
+.gkMarginLR { padding-left: 12px!important; padding-right: 12px!important; }
+.gkMarginTBL { padding-top: 12px!important; padding-bottom: 12px!important; padding-left: 12px!important; }
+.gkMarginTBR { padding-top: 12px!important; padding-bottom: 12px!important; padding-right: 12px!important; }
+.gkMarginTLR { padding-top: 12px!important; padding-left: 12px!important; padding-right: 12px!important; }
+.gkMarginBLR { padding-bottom: 12px!important; padding-left: 12px!important; padding-right: 12px!important; }
+.gkMarginTBLR { padding: 12px!important; }
+/* Joomla columns */
+
+.cols-1 { display: block; float: none !important; margin: 0 !important; }
+.cols-2 .column-1 { width:46%; float:left; }
+.cols-2 .column-2 { width:46%; float:right; margin:0 }
+.cols-3 .column-1 { float:left; width:29%; padding:0px 5px; margin-right:4% }
+.cols-3 .column-2 { float:left; width:29%; margin-left:0; padding:0px 5px }
+.cols-3 .column-3 { float:right; width:29%; padding:0px 5px }
+.items-row { padding-bottom:27px !important; }
+.column-1,
+.column-2,
+.column-3 { padding:0 }
+.column-2 { width:55%; margin-left:40%; }
+.column-3 { width:30% }
+.blog-more { padding:10px 5px }
+
+
+.articleContent img, .feed-item-description img {
+    background: none repeat scroll 0 0 hsl(0, 0%, 100%);
+    display: block;
+    float: none !important;
+    margin: 0 10px 10px 0px !important;
+    padding: 0;
+}
+
+.jrRatingStarsUser, .jrRatingStarsEditor {
+    margin-top: 3px;
+    text-align: left;
+    width: 160px !important;
+}
+.jrListingFulltext img{margin:auto !important;}
+
+
+.itemAuthorBlock .itemAuthorAvatar {
+    border: 1px solid hsl(0, 0%, 80%);
+    margin: 5px;
+    max-width: 53px;
+    padding: 1px;
+}
+.itemAuthorBlock .itemAuthorAvatar {
+    border: 1px solid hsl(0, 0%, 93%);
+    display: block;
+    float: left;
+    margin: 16px 20px;
+    overflow: hidden;
+    padding: 0;
+    width: 106px;
+}
+fieldset, img {
+    border: 0 none;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 hsl(42, 100%, 57%);
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 hsl(42, 100%, 57%);
+    color: hsl(0, 0%, 100%);
+}
+a {
+    color: hsl(240, 76%, 34%);
+}
+a {
+    color: hsl(0, 0%, 20%);
+}
+#gkComponentWrap {
+    font-size: 100%;
+}
+body, .gkIsWrapper-gk_game_magazine .gkIsTextItem span.gkIsTextSmall, #gkMainMenu > div > ul div.childcontent li, #gkFooterWrap {
+    font-family: Arial,Helvetica,sans-serif;
+}
+body {
+    color: hsl(0, 0%, 0%);
+    line-height: 1.4;
+}
+body {
+    color: hsl(0, 0%, 40%);
+    line-height: 1.8;
+}
+body {
+    font: 13px/1.8 Arial,sans-serif;
+}
+.jrFieldGroup .jrFieldRow {
+    1px solid hsl(0, 0%, 80%);
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.jrPathway {
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+    padding-right: 15px;
+    width: 80%;
+    display:none !important; 
+}
+
+.ostpclist ul { margin:0px; padding:0px;list-style:none;} 
+.ostpclist li {  list-style:none;  float:left; padding:3px 6px; background-color:#155276; color:#fff; margin:5px 3px;} 
+
+
+
+.jrModuleItemContent {
+    font-size: 12px !important;
+}
+
+.jrModuleItems .jrModuleItemTitle a {
+    font-size: 16px !important;
+   
+}
+
+.navbar-nav > li > a{ padding:15px 10px !important;}
+.container .navbar-form .form-control{height:28px;}
+.container .navbar-form .input-group{margin-top:4px;}
+.nav > li > a.thumbnail{padding:4px !important}
+.nav > li > a.thumbnail img{width:100% !important;margin-bottom:10px !important;}
+
+
+
+
+
+
+
