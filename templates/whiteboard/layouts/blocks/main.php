@@ -187,7 +187,7 @@ if($this->getParam("cwidth_position", '') == 'style') {
 					<?php endif; ?>
 				<!-- /**************** -->
 
-				<!-- /**************** -->
+				<!-- /******* Mega comment ********* -->
 					<?php if( $this->modules('ost-mid-box-1')) : ?>
 						<div class="ost-mid-box-1">
 							<div class="box">
@@ -195,7 +195,7 @@ if($this->getParam("cwidth_position", '') == 'style') {
 							</div>
 						</div>
 					<?php endif; ?>
-				<!-- /**************** -->
+				<!-- /*******END Mega comment ********* -->
 				<!-- /**************** -->
 					<?php if( $this->modules('ost-mid-box-2')) : ?>
 						<div class="ost-mid-box-2">
