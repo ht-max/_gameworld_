@@ -49,7 +49,7 @@ if($this->browser->get('browser') != 'ie6') {
 	$this->addCSS($this->URLtemplate() . '/css/style'.$template_style.'.css');
 	
 	if($this->getParam("css_override", '0')) {
-		$this->addCSS($this->URLtemplate() . '/css/override.css?v=135');
+		$this->addCSS($this->URLtemplate() . '/css/override.css?v=105');
 	}
 	
     if($this->getParam("css_custom", '') != '') {
